@@ -5,7 +5,6 @@ import React from 'react';
 
 const MapInfoWindow = ({ data, onCloseClick }) => {
   // const position = { lat: data?.lat, lng: data?.lng };
-
   // return (
   //   <InfoWindow
   //     position={position}

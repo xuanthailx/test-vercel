@@ -1,6 +1,5 @@
 # Introduction
 
-
 ## TripFinder. - A React Next Rental and Listing Template
 
 This template built with React, NextJS, TypeScript, Styled-Components, HeadlessUI, TailwindCSS, Google Map API, & AntDesign. It's a very easy to use template, comes with ready made beautiful components, those helps you to build your amazing react next js application.
@@ -109,4 +108,5 @@ For boat you need to run,
 ```
 yarn build:boat
 ```
+
 # test-vercel

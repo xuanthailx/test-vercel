@@ -5,7 +5,6 @@ const MapWrapper = ({ children, ...rest }) => {
   // const { isLoaded, loadError } = useLoadScript({
   //   googleMapsApiKey: process.env.NEXT_PUBLIC_REACT_APP_GOOGLE_MAP_API_KEY,
   // });
-
   // if (loadError) {
   //   return <div>Map cannot be loaded right now, sorry.</div>;
   // }

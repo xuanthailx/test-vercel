@@ -8,12 +8,10 @@ const HotelMapMarkerCluster = ({ location, clusterer }) => {
   // const [isOpen, setIsOpen] = useState(false);
   // const [markerIndex, setMarkerIndex] = useState(0);
   // let hotelData = [];
-
   // const infoWindowToggle = (index) => {
   //   setIsOpen(!isOpen);
   //   setMarkerIndex(index);
   // };
-
   // location &&
   //   location.forEach((item) => {
   //     hotelData.push({
@@ -28,7 +26,6 @@ const HotelMapMarkerCluster = ({ location, clusterer }) => {
   //       ratingCount: item.ratingCount,
   //     });
   //   });
-
   // return hotelData.map((singlePostLocation, index) => {
   //   return (
   //     <Marker

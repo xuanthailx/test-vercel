@@ -27,7 +27,6 @@ const MapWithSearchBox = (props) => {
   //   places: [],
   // });
   // const onLoad = (ref) => setSearchBox(ref);
-
   // const onPlacesChanged = () => {
   //   const places = searchBox.getPlaces();
   //   const bounds = new window.google.maps.LatLngBounds();
@@ -42,7 +41,6 @@ const MapWithSearchBox = (props) => {
   //     position: place.geometry.location,
   //   }));
   //   const nextCenter = _.get(nextMarkers, '0.position', locationDetails.center);
-
   //   setLocationDetails({
   //     places,
   //     center: nextCenter,
@@ -53,7 +51,6 @@ const MapWithSearchBox = (props) => {
   //   });
   //   updateValue(places);
   // };
-
   // const handleOnChange = (event) => {
   //   event.stopPropagation();
   //   if (event.which === '13') {
@@ -61,7 +58,6 @@ const MapWithSearchBox = (props) => {
   //   }
   //   setLocationInput({ searchedLocation: event.target.value });
   // };
-
   // const handleOnPressEnter = (event) => {
   //   event.stopPropagation();
   //   if (event.which === '13') {
@@ -69,7 +65,6 @@ const MapWithSearchBox = (props) => {
   //   }
   //   setLocationInput({ searchedLocation: event.target.value });
   // };
-
   // const onDragEndFunc = (marker) => {
   //   let tempLocArray = [];
   //   var geocoder = new window.google.maps.Geocoder();
@@ -77,12 +72,10 @@ const MapWithSearchBox = (props) => {
   //     lat: Number(marker.latLng.lat().toFixed(4)),
   //     lng: Number(marker.latLng.lng().toFixed(4)),
   //   };
-
   //   setLocationDetails({
   //     ...locationDetails,
   //     center: latlng,
   //   });
-
   //   geocoder.geocode({ latLng: latlng }, function (results, status) {
   //     console.log(results, 'results');
   //     if (results[0] && results[0].formatted_address) {
@@ -101,7 +94,6 @@ const MapWithSearchBox = (props) => {
   //   });
   //   updateValue(dragNDropData);
   // };
-
   // return (
   //   <MapWrapper
   //     id="map-search-box"

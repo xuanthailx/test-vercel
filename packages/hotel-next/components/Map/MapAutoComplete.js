@@ -33,7 +33,6 @@ const SearchInput = (props) => {
   //     searchedPlaceAPIData: places ? places : [],
   //   });
   // };
-
   // const handleOnPressEnter = (event) => {
   //   if (event.which === '13') {
   //     event.preventDefault();
@@ -42,11 +41,9 @@ const SearchInput = (props) => {
   //   setLocationInput({ searchedLocation: event.target.value });
   //   getInputValue(locationInput);
   // };
-
   // if (loadError) {
   //   return <div>Map cannot be loaded right now, sorry.</div>;
   // }
-
   // return (
   //   <div className="map_autocomplete">
   //     {isLoaded && (
